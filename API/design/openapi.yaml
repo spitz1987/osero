@@ -1,0 +1,16 @@
+openapi: '3.0.3'
+
+info:
+  title: osero-app
+  version: 1.0.0
+
+
+paths:
+  /api/games:
+    post:
+      response:
+        201:
+          description: Created
+  /api/games/latest/turns/{turnCount}:
+    parameters:
+      - 
