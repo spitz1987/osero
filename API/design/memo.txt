@@ -1,0 +1,2 @@
+mac
+alt+shift+p
